@@ -44,6 +44,61 @@ p {
 .section-title span {
 	color: crimson;
 }
+/*skills section starts here*/
+#skills-page{
+    margin:20px 0px;
+    padding: 10px;
+}
+.skills-section{
+        height: fit-content;
+        width: 80%;
+        margin: auto;
+        text-align: justify;
+}
+.skills-section-content{
+    margin:65px 0px;
+}
+.progress{
+    flex-direction: column;
+}
+
+.progress label{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:1.3rem;
+}
+.progress-bar{
+    height: 20px;
+    width:100%;
+    margin-bottom: 20px;
+    background-color: #e5e5e5;
+}
+
+.bar-percentage{
+    background-color: #7b4397;
+    background-image: linear-gradient(to right, #7b4397, #dc2430);
+    height: 20px;
+}
+.java{
+    width: 70%;
+}
+.html{
+    width: 90%;
+}
+.bootstrap{
+    width: 82%;
+}
+.javascript{    
+    width: 70%;
+}
+.python{ 
+    width: 80%;
+}
+.c{    
+    width: 70%;
+}
+
+
+
 
 .cta {
 	display: inline-block;
